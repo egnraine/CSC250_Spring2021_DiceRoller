@@ -29,6 +29,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         this.oneButton = this.findViewById(R.id.OneB);
+        this.twoButton = this.findViewById(R.id.TwoB);
+        this.threeButton = this.findViewById(R.id.ThreeB);
+        this.fourButton = this.findViewById(R.id.FourB);
+        this.fiveButton = this.findViewById(R.id.FiveB);
+        this.sixButton = this.findViewById(R.id.SixB);
+        this.sevenButton = this.findViewById(R.id.SevenB);
+        this.eightButton = this.findViewById(R.id.EightB);
+        this.nineButton = this.findViewById(R.id.NineB);
+        this.zeroButton = this.findViewById(R.id.ZeroB);
+
         this.qtyTV = this.findViewById(R.id.qtyTV);
     }
 
@@ -37,6 +47,42 @@ public class MainActivity extends AppCompatActivity {
         if(v == this.oneButton)
         {
             this.qtyTV.setText("1");
+        }
+        if(v == this.twoButton)
+        {
+            this.qtyTV.setText("2");
+        }
+        if(v == this.threeButton)
+        {
+            this.qtyTV.setText("3");
+        }
+        if(v == this.fourButton)
+        {
+            this.qtyTV.setText("4");
+        }
+        if(v == this.fiveButton)
+        {
+            this.qtyTV.setText("5");
+        }
+        if(v == this.sixButton)
+        {
+            this.qtyTV.setText("6");
+        }
+        if(v == this.sevenButton)
+        {
+            this.qtyTV.setText("7");
+        }
+        if(v == this.eightButton)
+        {
+            this.qtyTV.setText("8");
+        }
+        if(v == this.nineButton)
+        {
+            this.qtyTV.setText("9");
+        }
+        if(v == this.zeroButton)
+        {
+            this.qtyTV.setText("0");
         }
     }
 
