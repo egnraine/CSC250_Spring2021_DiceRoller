@@ -141,6 +141,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".67"
+                    android:onClick="clearButtonPressed"
                     android:text="CLEAR" />
 
             </LinearLayout>
@@ -186,6 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/d4" />
 
@@ -195,6 +197,7 @@
                     android:layout_height="72dp"
                     android:layout_weight="1"
                     android:background="@drawable/d6"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/d6" />
             </LinearLayout>
@@ -210,13 +213,15 @@
                     android:layout_height="72dp"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/d8" />
+                    app:srcCompat="@drawable/d8"
+                    android:onClick="diceButtonPressed" />
 
                 <ImageButton
                     android:id="@+id/d10B"
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/d10" />
             </LinearLayout>
@@ -231,6 +236,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/d12" />
 
@@ -239,6 +245,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/d20" />
             </LinearLayout>
@@ -255,6 +262,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="onRollButtonPressed"
             android:text="Roll" />
 
         <Button
